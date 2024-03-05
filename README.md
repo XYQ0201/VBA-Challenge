@@ -6,8 +6,11 @@ Once the next ticker is identified. I write codes to summarize, yearly change, p
 The yearly change formula is to use the closing price of the last trading day - the openining price of the first day of that year. 
 Percent change is equal to (yearly change/opening price) * 100, the column is formatted using FormatPercent to keep 2 decimal points. 
 Total Stock Volumn is to add up all the stock volumn on each trading day for the same ticker. 
+For bonus points questions, 
+I store the yearly percent change as initial data for both greatest increase% and greatest decrease%, then compare line by line to find two values. 
+Same applies for greatest total volumn, the initial data is the first total volumn then I compare line by line to find out which one is the biggest. 
 
-Find screenshots here
+Screenshots for results: 
 (<img width="1440" alt="2018-1" src="https://github.com/XYQ0201/VBA-Challenge/assets/159677165/0c18d52c-b42d-458f-b7a1-0dc2d1497989">
 <img width="1440" alt="2018-1" src="https://github.com/XYQ0201/VBA-Challenge/assets/159677165/2b72ac52-b10c-4ea7-9048-c827cb66217a">
 <img width="1440" alt="2018-2" src="https://github.com/XYQ0201/VBA-Challenge/assets/159677165/36597cd3-919e-44e8-8720-488068d99607">
