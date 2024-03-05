@@ -1,5 +1,4 @@
 # VBA-Challenge
-Monash Data Analytics Week 2 homework
 The initial data set contains opening,closing, daily high and daily low price on each stockmarket trading day for different tickers in 2018,2019 and 2020. 
 To summarize the data, I first used for loop to compare the ticker names to identify different tickers and print them out.
 Once the next ticker is identified. I write codes to summarize, yearly change, percent change and total stock volumn data.
