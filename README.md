@@ -6,8 +6,8 @@ The yearly change formula is to use the closing price of the last trading day - 
 Percent change is equal to (yearly change/opening price) * 100, the column is formatted using FormatPercent to keep 2 decimal points. 
 Total Stock Volumn is to add up all the stock volumn on each trading day for the same ticker. 
 For bonus points questions, 
-I store the yearly percent change as initial data for both greatest increase% and greatest decrease%, then compare line by line to find highest and lowest value among all of them. 
-Same applies for greatest total volumn, the initial data is the first total volumn I get, then I compare line by line to find out which one is the biggest. 
+I store the first ticker's yearly percent change as initial value for both greatest increase% and greatest decrease%, if next %change is higher than the initial value, this will be deemed as greatest increase, vice versa. I compare the rest of data points line by line to find highest and lowest value.
+Same rule applies for greatest total volumn, the initial data is the first total volumn from the summarization, then go through each line to find which one is the biggest. 
 
 Screenshots for results: 
 2018:
